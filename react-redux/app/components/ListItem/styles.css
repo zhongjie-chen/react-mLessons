@@ -1,0 +1,35 @@
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.item + .item {
+  border-top: 1px solid #EEE;
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.itemImg {
+  max-width: 100%;
+  display: block;
+}
+.imgWrapper {
+  text-align: center;
+}
+.name {
+  color: #9c9c9c;
+  text-align: left;
+}
+.content {
+  text-align: left;
+  border-bottom: 1px solid #CCC;
+
+}
